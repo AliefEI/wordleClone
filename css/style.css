@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2b2a2a;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* whole board */
+.board{
+    border: rgb(122, 120, 120) solid 1px; 
+    height: 600px;
+    width: 500px;
+    margin: auto;
+}
+
+.guess{
+    border: rgb(122, 120, 120) solid 1px; 
+    height: 100px;
+    /* background-color: blue; */
+    width: 500px;
+    float: left;
+
+} 
+
+.tile1{
+    width:  20%;
+    height: 100px;
+    border: rgb(122, 120, 120) solid 1px; 
+    float: left;
+    /* background-color:÷; */
+}
+
+.tile2{
+    width: 20%;
+    height: 100px;
+    border: rgb(122, 120, 120) solid 1px; 
+    float: left;
+}
+
+.tile3{
+    width: 20%;
+    height: 100px;
+    border: rgb(122, 120, 120) solid 1px; 
+    float: left;
+}
+
+.tile4{
+    width: 20%;
+    height: 100px;
+    border: rgb(122, 120, 120) solid 1px; 
+    float: left;
+}
+
+.tile5{
+    width: 20%;
+    height: 100px;
+    border: rgb(122, 120, 120) solid 1px; 
+    float: left;
+}
+
+.tile6{
+    width: 20%;
+    height: 100px;
+    border: rgb(122, 120, 120) solid 1px; 
+    float: left;
+}
+
+.keyboard{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.keyboardButton{
+    font-size: 1.75rem;
+    margin: .5rem;
+    background-color: grey;
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+}
