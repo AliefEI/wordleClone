@@ -1,0 +1,19 @@
+{
+  "name": "npm-init-wordle",
+  "version": "1.0.0",
+  "description": "my personal project for the app wordle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliefEI/wordleClone.git"
+  },
+  "author": "Alief E Imam alief.e.imam@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliefEI/wordleClone/issues"
+  },
+  "homepage": "https://github.com/AliefEI/wordleClone#readme"
+}
