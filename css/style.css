@@ -14,7 +14,7 @@ h1{
 }
 
 /* whole board */
-.board{
+/* .board{
     border: rgb(122, 120, 120) solid 1px; 
     height: 600px;
     width: 500px;
@@ -24,21 +24,21 @@ h1{
 .guess{
     border: rgb(122, 120, 120) solid 1px; 
     height: 100px;
-    /* background-color: blue; */
+    /* background-color: blue; 
     width: 500px;
     float: left;
 
-} 
+}  */
 
-.tile1{
+/* .tile1{
     width:  20%;
     height: 100px;
     border: rgb(122, 120, 120) solid 1px; 
     float: left;
-    /* background-color:÷; */
-}
+    /* background-color:÷; 
+} */
 
-.tile2{
+/* .tile2{
     width: 20%;
     height: 100px;
     border: rgb(122, 120, 120) solid 1px; 
@@ -88,4 +88,4 @@ h1{
 
 button{
     border-radius: 5px;
-}
+} */

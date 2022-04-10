@@ -4,12 +4,20 @@ Things to do
     - create input for entering letters --> connect keyboard to button 
     - create a way to erase letter 
     - create a way to check guesses 
-- creat function to connect guess to vocab api -- or hard code 5-letter words via json
 - create 
 
-
-
-
-
 */
+ 
+import {WORDS} from './words.js'
 
+const numberOfGuesses = 6
+let guessesRemaining = numberOfGuesses
+let currentGuess = []
+let nextLetter = 0
+let randomWordGuess = WORDS[Math.floor(Math.random()*WORDS.length)]
+console.log(randomWordGuess)
+
+
+// function insertLetter (pressedKey){
+//     if (nextLetter==)
+// }

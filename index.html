@@ -9,13 +9,18 @@
 
     <!-- links -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
     <h1>Wordle Clone</h1>
 
+    <div id="game-board">
+
+    </div>
     <!--Gameboard-->
-    <section class="board">
+     <section class="board">
         <section class="guess firstGuess">
             <section class="tile1 firstGuessL1"></section>
             <section class="tile1 firstGuessL2"></section>
@@ -60,48 +65,51 @@
         </section>
     </section>
 
-    <!--Keyboard-->
+    <!-- Keyboard -->
 
-
-    <div class="keyboard">
-        <div class="rowOne row">
-            <button class="keyboardButton">Q</button>
-            <button class="keyboardButton">W</button>
-            <button class="keyboardButton">E</button>
-            <button class="keyboardButton">R</button>
-            <button class="keyboardButton">T</button>
-            <button class="keyboardButton">Y</button>
-            <button class="keyboardButton">U</button>
-            <button class="keyboardButton">I</button>
-            <button class="keyboardButton">O</button>
-            <button class="keyboardButton">P</button>
+    <div id="keyboard-cont">
+        <div class="first-row">
+            <button class="keyboard-button">q</button>
+            <button class="keyboard-button">w</button>
+            <button class="keyboard-button">e</button>
+            <button class="keyboard-button">r</button>
+            <button class="keyboard-button">t</button>
+            <button class="keyboard-button">y</button>
+            <button class="keyboard-button">u</button>
+            <button class="keyboard-button">i</button>
+            <button class="keyboard-button">o</button>
+            <button class="keyboard-button">p</button>
         </div>
-        <div class="rowTwo row">
-            <button class="keyboardButton">A</button>
-            <button class="keyboardButton">S</button>
-            <button class="keyboardButton">D</button>
-            <button class="keyboardButton">F</button>
-            <button class="keyboardButton">G</button>
-            <button class="keyboardButton">H</button>
-            <button class="keyboardButton">J</button>
-            <button class="keyboardButton">K</button>
-            <button class="keyboardButton">L</button>
+        <div class="second-row">
+            <button class="keyboard-button">a</button>
+            <button class="keyboard-button">s</button>
+            <button class="keyboard-button">d</button>
+            <button class="keyboard-button">f</button>
+            <button class="keyboard-button">g</button>
+            <button class="keyboard-button">h</button>
+            <button class="keyboard-button">j</button>
+            <button class="keyboard-button">k</button>
+            <button class="keyboard-button">l</button>
         </div>
-        <div class="rowThree row">
-            <button class="keyboardButton">ENTER</button>
-            <button class="keyboardButton">Z</button>
-            <button class="keyboardButton">X</button>
-            <button class="keyboardButton">C</button>
-            <button class="keyboardButton">V</button>
-            <button class="keyboardButton">B</button>
-            <button class="keyboardButton">N</button>
-            <button class="keyboardButton">M</button>
-            <button class="keyboardButton">DELETE</button>
-
+        <div class="third-row">
+            <button class="keyboard-button">Del</button>
+            <button class="keyboard-button">z</button>
+            <button class="keyboard-button">x</button>
+            <button class="keyboard-button">c</button>
+            <button class="keyboard-button">v</button>
+            <button class="keyboard-button">b</button>
+            <button class="keyboard-button">n</button>
+            <button class="keyboard-button">m</button>
+            <button class="keyboard-button">Enter</button>
         </div>
     </div>
 
 
+    <script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
     
 </body>
